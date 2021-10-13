@@ -68,7 +68,10 @@
             ],
             "responses": {
               "200":{
-                "description": ""
+                "description": "Successfully retrieved the list of Event Hubs.",
+                "schema": {
+                  "$ref": "#/definitions/SchemaGroup"
+                }
               }
             }
           }
@@ -181,7 +184,10 @@
             ],
             "responses": {
               "200":{
-                "description": ""
+                "description": "Successfully retrieved the Schema Group description.",
+                "schema": {
+                  "$ref": "#/definitions/SchemaGroup"
+                }
               }
             }
           }
@@ -207,6 +213,7 @@
               },
               "eTag": {
                 "readOnly": true,
+                "format": "uuid",
                 "type": "string",
                 "description": "The ETag value."
               },
@@ -252,7 +259,29 @@
             "description": "The system meta data relating to this resource.",
             "$ref": "../../../common/v1/definitions.json#/definitions/systemData"
           }
-        }
-      }
+        },
+        "allOf": [
+          {
+            "$ref": "../../../common/v2/definitions.json#/definitions/ProxyResource"
+          }
+        ],
+        "description": "Single item in List or Get Schema Group operation"
+      },
+      "SchemaGroupListResult": {
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/SchemaGroup"
+            },
+          "description": "Result of the List SchemaGroups operation."
+          },
+          "nextLink": {
+            "type": "string",
+            "description": "Link to the next set of results. Not empty if Value contains incomplete list of Schema Groups."
+          }
+        },
+      "description": "The result of the List SchemaGroup operation."
     }
+  }
 }
