@@ -64,11 +64,7 @@
           "default": {
             "description": "Event Hub Cluster error response describing why the operation failed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         },
@@ -110,11 +106,7 @@
           "default": {
             "description": "Event Hub Cluster error response describing why the operation failed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         },
@@ -159,11 +151,7 @@
           "default": {
             "description": "Event Hubs Cluster error response describing why the cluster description get operation failed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }
@@ -224,11 +212,7 @@
           "default": {
             "description": "Event Hubs error response detailing why the Event Hubs Cluster create or update operation failed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         },
@@ -287,11 +271,7 @@
           "default": {
             "description": "Event Hubs error response detailing why the Event Hubs Cluster update operation failed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         },
@@ -335,11 +315,7 @@
           "default": {
             "description": "Event Hubs error response describing why the operation failed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         },
@@ -382,11 +358,7 @@
           "default": {
             "description": "Event Hubs Cluster error response detailing why this operation failed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }

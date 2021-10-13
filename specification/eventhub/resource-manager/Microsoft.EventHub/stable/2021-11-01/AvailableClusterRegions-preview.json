@@ -64,11 +64,7 @@
           "default": {
             "description": "Error response describing why available clusters could not be successfully listed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }

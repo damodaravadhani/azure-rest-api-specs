@@ -61,11 +61,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         },
@@ -103,27 +99,6 @@
           "type": "string",
           "description": "Operation name: {provider}/{resource}/{operation}"
         },
-<<<<<<< HEAD
-        "display": {
-          "description": "The object that represents the operation.",
-          "properties": {
-            "provider": {
-              "readOnly": true,
-              "type": "string",
-              "description": "Service provider: Microsoft.EventHub"
-            },
-            "resource": {
-              "readOnly": true,
-              "type": "string",
-              "description": "Resource on which the operation is performed: Invoice, etc."
-            },
-            "operation": {
-              "readOnly": true,
-              "type": "string",
-              "description": "Operation type: Read, write, delete, etc."
-            }
-          }
-=======
         "isDataAction": {
           "description": "Indicates whether the operation is a data action",
           "type": "boolean"
@@ -161,7 +136,6 @@
           "description": "Localized friendly description for the operation",
           "type": "string",
           "readOnly": true
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
         }
       }
     }

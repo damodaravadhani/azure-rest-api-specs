@@ -91,11 +91,7 @@
           "default": {
             "description": "Event Hubs Cluster error response describing why the get cluster quotas and settings operation failed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }
@@ -135,11 +131,7 @@
           "default": {
             "description": "Event Hubs Cluster error response describing why the get cluster quotas and settings operation failed.",
             "schema": {
-<<<<<<< HEAD
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
-=======
               "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
->>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }
