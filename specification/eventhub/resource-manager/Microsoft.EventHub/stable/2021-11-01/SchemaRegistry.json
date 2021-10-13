@@ -80,7 +80,9 @@
             ],
             "operationId": "SchemaRegistry_CreateOrUpdate",
             "x-ms-examples": {
-
+              "SchemaRegistryCreate": {
+                "$ref": "./examples/SchemaRegistry/SchemaRegistryCreate.json"
+              }
             },
             "description": "",
             "parameters": [
@@ -119,9 +121,11 @@
             "tags":[
               "SchemaRegistry"
             ],
-            "operationId": "SchemaRegistry_CreateOrUpdate",
+            "operationId": "SchemaRegistry_Delete",
             "x-ms-examples": {
-
+              "SchemaRegistryDelete": {
+                "$ref": "./examples/SchemaRegistry/SchemaRegistryDelete.json"
+              }
             },
             "description": "",
             "parameters": [
@@ -151,9 +155,11 @@
             "tags":[
               "SchemaRegistry"
             ],
-            "operationId": "",
+            "operationId": "SchemaRegistry_Get",
             "x-ms-examples":{
-              
+              "SchemaRegistryGet": {
+                "$ref": "./examples/SchemaRegistry/SchemaRegistryGet.json"
+              }
             },
             "description": "",
             "parameters": [
