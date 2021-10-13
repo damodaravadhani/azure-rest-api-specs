@@ -79,7 +79,11 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
+<<<<<<< HEAD
               "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+=======
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
+>>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }
@@ -121,7 +125,11 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
+<<<<<<< HEAD
               "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+=======
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
+>>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         },
@@ -181,7 +189,11 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
+<<<<<<< HEAD
               "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+=======
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
+>>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }
@@ -218,10 +230,20 @@
           "200": {
             "description": "Delete Alias(Disaster Recovery configuration) request accepted"
           },
+<<<<<<< HEAD
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
               "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+=======
+          "204": {
+            "description": "No content."
+          },
+          "default": {
+            "description": "Eventhub error response describing why the operation failed.",
+            "schema": {
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
+>>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }
@@ -264,7 +286,11 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
+<<<<<<< HEAD
               "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+=======
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
+>>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }
@@ -306,7 +332,11 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
+<<<<<<< HEAD
               "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+=======
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
+>>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }
@@ -348,7 +378,11 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
+<<<<<<< HEAD
               "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+=======
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
+>>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         }
@@ -460,7 +494,11 @@
       },
       "allOf": [
         {
+<<<<<<< HEAD
           "$ref": "../../../common/v1/definitions.json#/definitions/Resource"
+=======
+          "$ref": "../../../common/v2/definitions.json#/definitions/ProxyResource"
+>>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
         }
       ],
       "description": "Single item in List or Get Alias(Disaster Recovery configuration) operation"

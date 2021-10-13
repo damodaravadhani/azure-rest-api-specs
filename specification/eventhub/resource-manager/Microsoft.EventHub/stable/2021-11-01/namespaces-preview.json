@@ -64,7 +64,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         },
@@ -106,7 +106,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         },
@@ -172,7 +172,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         },
@@ -216,7 +216,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         },
@@ -257,7 +257,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         }
@@ -315,7 +315,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         }
@@ -360,7 +360,7 @@
           "default": {
             "description": "EventHubEventHub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         },
@@ -426,7 +426,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         }
@@ -475,7 +475,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         },
@@ -522,7 +522,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         }
@@ -567,7 +567,7 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
             }
           }
         }
@@ -676,6 +676,10 @@
             "disableLocalAuth": {
               "type": "boolean",
               "description": "This property disables SAS authentication for the Event Hubs namespace."
+            },
+            "alternateName": {
+              "type": "string",
+              "description": "Alternate name specified when alias and namespace names are same."
             }
           },
           "description": "Namespace properties supplied for create namespace operation."
@@ -841,7 +845,7 @@
       "description": "Properties of the PrivateEndpointConnection.",
       "allOf": [
         {
-          "$ref": "../../../common/v1/definitions.json#/definitions/Resource"
+          "$ref": "../../../common/v2/definitions.json#/definitions/ProxyResource"
         }
       ],
       "properties": {

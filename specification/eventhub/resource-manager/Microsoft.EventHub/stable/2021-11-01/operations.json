@@ -61,7 +61,11 @@
           "default": {
             "description": "Eventhub error response describing why the operation failed.",
             "schema": {
+<<<<<<< HEAD
               "$ref": "../../../common/v1/definitions.json#/definitions/ErrorResponse"
+=======
+              "$ref": "../../../common/v2/definitions.json#/definitions/ErrorResponse"
+>>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
             }
           }
         },
@@ -99,6 +103,7 @@
           "type": "string",
           "description": "Operation name: {provider}/{resource}/{operation}"
         },
+<<<<<<< HEAD
         "display": {
           "description": "The object that represents the operation.",
           "properties": {
@@ -118,6 +123,45 @@
               "description": "Operation type: Read, write, delete, etc."
             }
           }
+=======
+        "isDataAction": {
+          "description": "Indicates whether the operation is a data action",
+          "type": "boolean"
+        },
+        "display": {
+          "$ref": "#/definitions/OperationDisplay",
+          "description": "Display of the operation"
+        },
+        "origin": {
+          "description": "Origin of the operation",
+          "type": "string"
+        }
+      }
+    },
+    "OperationDisplay": {
+      "description": "Operation display payload",
+      "type": "object",
+      "properties": {
+        "provider": {
+          "description": "Resource provider of the operation",
+          "type": "string",
+          "readOnly": true
+        },
+        "resource": {
+          "description": "Resource of the operation",
+          "type": "string",
+          "readOnly": true
+        },
+        "operation": {
+          "description": "Localized friendly name for the operation",
+          "type": "string",
+          "readOnly": true
+        },
+        "description": {
+          "description": "Localized friendly description for the operation",
+          "type": "string",
+          "readOnly": true
+>>>>>>> dded46af60f12da90335f20ae7c8c46ac98aa0e9
         }
       }
     }
